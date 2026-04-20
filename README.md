@@ -114,8 +114,7 @@ Determine qual pasta de fotos deve ser usada, como por exemplo: `python calibrac
 
 ---
 
-## Por fim
+## Etapa extra do trabalho
 
-* Utilizar os parâmetros obtidos para projeção 3D
-* Aplicar na Questão 01 do trabalho
-* Comparar parâmetros entre diferentes câmeras
+A tarefa consistia em usar do resultado da etapa 1 e combinar com a 1ª questão, para tal use:
+`python projecao.py`

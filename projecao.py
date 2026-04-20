@@ -1,6 +1,10 @@
+# ETAPA 2 DO TRABALHO
+# POR JOÃO VICTOR CRUZ
+#VISÃO COMPUTACIONAL 2026.1 - SEJA O QUE DEUS QUISER
 import numpy as np
+
 # 1. CARREGAR MATRIZ DA CÂMERA
-data = np.load("calibracao_camera2.npz")  # ou camera2
+data = np.load("calibracao_camera2.npz")
 K = data["K"]
 
 # 2. MATRIZES DA QUESTÃO
@@ -10,12 +14,8 @@ R = np.array([
     [0, 0, -1]
 ])
 
-t = np.array([[0], [0], [2000]])  # mm
-
-# montar [R | t]
+t = np.array([[0], [0], [2000]])
 RT = np.hstack((R, t))
-
-# matriz de projeção
 P = K @ RT
 
 print("Matriz de Projeção P:\n", P)

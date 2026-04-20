@@ -1,3 +1,6 @@
+# ETAPA 1 DO TRABALHO
+# POR JOÃO VICTOR CRUZ
+#VISÃO COMPUTACIONAL 2026.1 - SEJA O QUE DEUS QUISER
 import cv2
 import numpy as np
 import glob
